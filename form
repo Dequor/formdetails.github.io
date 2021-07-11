@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h3>Please fill out the details</h3>
+
+<form action="backend.php"></form>
+<div>
+    Name: <input type="text" name="myname">
+</div>
+<br>
+<div>
+    Role: <input type="text" name="myrole">
+</div>
+<br>
+<div>
+    Email: <input type="email" name="myemail">
+</div>
+<br>
+<div>
+    Date: <input type="date" name="mydate">
+</div>
+<br>
+<div>
+    Are you eligible: <input type="checkbox" name="mycheckbox">
+</div>
+<br>
+<div>
+    Bonus: <input type="number" name="mybonus">
+</div>
+<br>
+<div>
+    Gender: Male <input type="radio" name="mygender"> Female <input type="radio" name="mygender"> Other <input type="radio" name="mygender">
+</div>
+<br>
+<div>
+    Write about yourself: <br> <textarea name="mytext" id="" cols="30" rows="10"></textarea>
+</div>
+<div>
+    <input type="submit" value="Submit now"> 
+    <input type="reset" value="Reset now"> 
+</div>
+
+</body>
+</html>
